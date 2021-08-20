@@ -12,6 +12,7 @@ using apiCorreos.Models;
 
 namespace apiCorreos.Controllers
 {
+    [Authorize]
     public class Servicios_CorreoController : ApiController
     {
         private ConexionBase db = new ConexionBase();
